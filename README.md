@@ -1,30 +1,100 @@
-# Idalenny ramos startup
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+# 🛍️ iDivas – Tienda de Moda Premium
+![idivas](https://i.imgur.com/qzVAA7u.png)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/nkatiag3-gmailcoms-projects/idivas)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/kSYuvzn5LO1)
+**iDivas** es una plataforma de e-commerce enfocada en ofrecer las últimas tendencias de moda en la República Dominicana. Desarrollada con tecnologías modernas como Next.js, TypeScript, Tailwind CSS, ShadCN y Supabase, esta aplicación proporciona una experiencia de compra rápida, segura y atractiva.
 
-## Overview
+## 🚀 Tecnologías Utilizadas
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+* **Next.js** (App Router) para renderizado híbrido y rutas dinámicas.
+* **TypeScript** para tipado estático y mayor robustez en el desarrollo.
+* **Tailwind CSS** para estilos utilitarios y diseño responsivo.
+* **ShadCN UI** para componentes accesibles y personalizables.
+* **Supabase** como backend-as-a-service: base de datos PostgreSQL, autenticación y almacenamiento.
+* **Vercel** para despliegue continuo y hosting optimizado.([Vercel][1])
 
-## Deployment
+## 🧩 Funcionalidades Principales
 
-Your project is live at:
+* Catálogo de productos con imágenes, precios y descuentos.
+* Sistema de carrito de compras y favoritos.
+* Autenticación de usuarios (registro, login).
+* Gestión de colecciones, categorías y promociones.
+* Integración con pasarelas de pago (Visa, Mastercard, PayPal).
+* Newsletter y conexión con redes sociales.
+* Panel de administración (en desarrollo).
 
-**[https://vercel.com/nkatiag3-gmailcoms-projects/idivas](https://vercel.com/nkatiag3-gmailcoms-projects/idivas)**
+## 📦 Estructura del Proyecto
 
-## Build your app
+```
 
-Continue building your app on:
+idivas/
+├── app/                # Rutas y páginas (Next.js App Router)
+├── components/         # Componentes reutilizables (ShadCN + Tailwind)
+├── lib/                # Utilidades, hooks y helpers
+├── styles/             # Archivos CSS globales y configuraciones
+├── supabase/           # Configuración y servicios de Supabase
+├── public/             # Imágenes y recursos estáticos
+├── types/              # Definiciones de tipos y modelos
+├── .env.local          # Variables de entorno (no versionadas)
+└── README.md
+```
 
-**[https://v0.dev/chat/projects/kSYuvzn5LO1](https://v0.dev/chat/projects/kSYuvzn5LO1)**
 
-## How It Works
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## ⚙️ Configuración Local
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/idivas.git
+   cd idivas
+   ```
+
+
+
+2. Instala las dependencias:
+
+   ```bash
+   pnpm install
+   ```
+
+
+
+3. Configura las variables de entorno en `.env.local`:
+
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=...
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+   ```
+
+
+
+4. Inicia el servidor de desarrollo:
+
+   ```bash
+   pnpm run dev
+   ```
+
+
+
+## 🧪 Scripts Disponibles
+
+* `pnpm run dev` – Inicia el servidor en modo desarrollo.
+* `pnpm run build` – Compila la aplicación para producción.
+* `pnpm run lint` – Ejecuta el linter para verificar el código.
+
+## 📸 Capturas de Pantalla
+
+![oaicite:81](https://idivas.vercel.app/images/home-preview.png)
+![oaicite:84](https://idivas.vercel.app/images/product-preview.png)
+
+## 📬 Contacto
+
+* 🌐 Sitio web: [idivas.vercel.app](https://idivas.vercel.app)
+* 📧 Correo: [info@idivas.com](mailto:info@idivas.com)
+* 📍 Ubicación: Santo Domingo, República Dominicana
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.
+
