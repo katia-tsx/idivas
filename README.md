@@ -85,8 +85,8 @@ idivas/
 
 ## 📸 Capturas de Pantalla
 
-![oaicite:81](https://idivas.vercel.app/images/home-preview.png)
-![oaicite:84](https://idivas.vercel.app/images/product-preview.png)
+![oaicite:81](https://i.imgur.com/dMko6Va.png)
+![oaicite:84](https://i.imgur.com/0ajhCdM.png)
 
 ## 📬 Contacto
 
